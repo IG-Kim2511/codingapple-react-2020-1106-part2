@@ -1,0 +1,31 @@
+.red{
+    color:$main;
+}
+
+6.
+div.container{
+    h4{
+       color: blue 
+    }
+    div{
+color: green
+    }
+}
+
+.my-alert{
+    background-color: #eeeeee;
+    font-size: 2rem;
+}
+
+.my-alert2{
+    @extend .my-alert;
+    background-color: yellow;
+}
+
+@mixin function(){
+    background: #eeeeee;
+}
+
+.my-alert3{
+    @include function();
+}
